@@ -5,9 +5,9 @@ spring:
     name: gha-libro-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/libro
+    url: jdbc:mysql://127.0.0.1:3306/Libro?serverTimezone=UTC&useSSL=false
     username: root
-    password:
+    password: ""
 
   jpa:
     hibernate:
