@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://
+          uri: https://github.com/GROVER-JHA/numero1.git
           searchPaths: config-data
           default-label: main
   security:
@@ -16,3 +16,4 @@ spring:
 
       name: grover
       password: aprovar
+
