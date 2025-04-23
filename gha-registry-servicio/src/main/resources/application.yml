@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gha-registry-servicio
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://grover:aprovar@localhost:7070
+

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gha-gateway-servidor
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://grover:aprovar@localhost:7070
